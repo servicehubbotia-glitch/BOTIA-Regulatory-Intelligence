@@ -1,0 +1,9 @@
+{
+  "kind": "synthetic-observations-v1",
+  "scenario_date": "2026-11-01",
+  "observations": {
+    "additives-bulletin": {"document": "DEMO-BULLETIN", "release": "2026-09-01"},
+    "labelling-standard": {"document": "DEMO-STANDARD", "release": "2026-10-15"},
+    "packaging-guidance": {"error": "timeout"}
+  }
+}

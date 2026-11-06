@@ -1,0 +1,42 @@
+{
+  "kind": "synthetic-replay-report-v1",
+  "scenario_date": "2026-11-01",
+  "input_sha256": {
+    "watchers": "20945f5d1e19b8ee62e754379858370576c407434a4f9fa9dbbbbdd1e9b95669",
+    "observations": "897c9b67465fb81bf3f05192eb5b3c42c7357738684c881148f54620f7c37652"
+  },
+  "counts": {
+    "SIN_CAMBIOS": 1,
+    "VERSION_NUEVA": 1,
+    "CONSULTA_FALLIDA": 1
+  },
+  "results": [
+    {
+      "watcher_id": "additives-bulletin",
+      "document": "DEMO-BULLETIN",
+      "last_seen": "2026-09-01",
+      "observed_release": "2026-09-01",
+      "status": "SIN_CAMBIOS",
+      "reason": "same_release",
+      "next_action": "retain_last_observation"
+    },
+    {
+      "watcher_id": "labelling-standard",
+      "document": "DEMO-STANDARD",
+      "last_seen": "2026-08-15",
+      "observed_release": "2026-10-15",
+      "status": "VERSION_NUEVA",
+      "reason": "later_release",
+      "next_action": "request_editorial_review"
+    },
+    {
+      "watcher_id": "packaging-guidance",
+      "document": "DEMO-GUIDANCE",
+      "last_seen": "2026-10-20",
+      "observed_release": null,
+      "status": "CONSULTA_FALLIDA",
+      "reason": "timeout",
+      "next_action": "investigate_and_retry"
+    }
+  ]
+}

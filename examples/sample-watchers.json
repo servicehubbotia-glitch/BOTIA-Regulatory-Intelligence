@@ -1,0 +1,8 @@
+{
+  "kind": "synthetic-watchers-v1",
+  "watchers": {
+    "additives-bulletin": {"document": "DEMO-BULLETIN", "last_seen": "2026-09-01"},
+    "labelling-standard": {"document": "DEMO-STANDARD", "last_seen": "2026-08-15"},
+    "packaging-guidance": {"document": "DEMO-GUIDANCE", "last_seen": "2026-10-20"}
+  }
+}
